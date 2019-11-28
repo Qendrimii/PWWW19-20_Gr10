@@ -13,10 +13,12 @@ and open the template in the editor.
     padding: 0px;
 
 }
+
 html{
     display: flex;
     background: #252525;
     color: white;
+    overflow-x: hidden;
 }
 .firstH{
     margin: 0px;
@@ -48,20 +50,19 @@ html{
     margin: 0px 30px;
     position: relative;
     top: -35px;
+
 }
 a:hover{
     color: chocolate;
 }
-.imageB{
-    width: 1300px;
-    height: 600px;
-    background: white;
-    display: flex;
-}
+
 .foto{
     width: 1300px;
-    height: 600px;
+    height: 620px;
     margin: 0px;
+    position: relative;
+    left: -10px;
+
 }
 .vija{
     position: relative;
@@ -70,13 +71,14 @@ a:hover{
     background: #414141;
     margin: 0px 10px;
     top: -50px;
+
 }
 .vija2{
     width: 1300px;
     height: 1px;
     background: #414141;
-    top: 100px;
-    margin: 150px 10px;
+    top: -50px;
+    margin: 20px 10px;
 }
 .vija3{
     width: 1300px;
@@ -103,6 +105,7 @@ a:hover{
     top: 100px;
     margin: 70px 10px;
     border-radius: 10px;
+
 }
 .linqet a{
     position: relative;
@@ -125,13 +128,15 @@ a:hover{
     width: 1300px;
     height: 600px;
     margin: 60px 10px 0px 10px ;
+
 }
 .rrumullaku{
     display:inline-block;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     background: #414141;
+    border: solid 20px #515151;
 }
 .text1{
     font-size: 50px;
@@ -174,27 +179,13 @@ a:hover{
     display: grid;
     font-size: 20px;
 }
-.fotoKorniza{
+.slidershow{
+    margin:0px;
     width: 1300px;
     height: 600px;
+    overflow: hidden;
+    border: solid 8px black;
 }
-.image1{
-    position: absolute;
-    z-index: 1;
-}
-.image2{
-    position: absolute;
-    z-index: 1;
-}
-.image3{
-    position: absolute;
-    z-index: 1;
-}
-.image4{
-    position: absolute;
-    z-index: 1;
-}
-.image5{
-    position: absolute;
-    z-index: 1;
-}
+
+
+
