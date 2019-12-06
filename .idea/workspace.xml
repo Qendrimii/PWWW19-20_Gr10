@@ -10,74 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Seminari.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template6.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -85,8 +22,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="952">
               <caret line="90" column="40" lean-forward="true" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Seminari.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -107,14 +53,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/Seminari.html" />
         <option value="$PROJECT_DIR$/Template.html" />
-        <option value="$PROJECT_DIR$/Template1.html" />
-        <option value="$PROJECT_DIR$/Template2.html" />
         <option value="$PROJECT_DIR$/Template3.html" />
         <option value="$PROJECT_DIR$/Template4.html" />
         <option value="$PROJECT_DIR$/Template5.html" />
         <option value="$PROJECT_DIR$/Template6.html" />
+        <option value="$PROJECT_DIR$/Template2.html" />
+        <option value="$PROJECT_DIR$/Seminari.html" />
+        <option value="$PROJECT_DIR$/ContactUS.html" />
+        <option value="$PROJECT_DIR$/Template1.html" />
       </list>
     </option>
   </component>
@@ -174,12 +121,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575532858195</updated>
-      <workItem from="1575532859805" duration="310000" />
+      <workItem from="1575532859805" duration="5802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310000" />
+    <option name="totallyTimeSpent" value="5802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -219,38 +166,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/Template3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="90" column="40" lean-forward="true" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="121">
+          <caret line="34" column="24" selection-end-line="58" />
         </state>
       </provider>
     </entry>
@@ -261,24 +180,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Template3.html">
+    <entry file="file://$PROJECT_DIR$/Template5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ContactUS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#td#1;n#tr#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="138">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="90" column="40" lean-forward="true" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Seminari.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="195">
+          <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
         </state>
       </provider>
     </entry>
