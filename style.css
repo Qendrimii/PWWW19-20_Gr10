@@ -94,8 +94,9 @@ a:hover{
     width: 1300px;
     height: 1px;
     background: #414141;
-    bottom: 30px;
+    bottom: 240px;
     right: 10px;
+    margin: 0px 20px 30px 10px;
 }
 .footerbar{
     display:block;
