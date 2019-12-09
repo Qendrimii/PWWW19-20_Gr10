@@ -144,6 +144,7 @@ a:hover{
         left, white 15%, lightsteelblue 50%, blue 75% );
         background: linear-gradient(
         135deg, white 15%, lightsteelblue 50%, blue 75% );
+        
 }
 
 
@@ -153,11 +154,14 @@ a:hover{
 .text1{
     font-size: 50px;
     margin: 0px 50px 0px 220px;
+    
 }
 .text2{
     font-size: 50px;
     margin: 0px 50px 0px 250px;
+    
 }
+
 .contactUS{
     position: relative;
     width: 440px;
