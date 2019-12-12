@@ -62,6 +62,7 @@ a:hover{
     margin: 0px;
     position: relative;
     left: -10px;
+    bottom: 10px;
 
 }
 .vija{
@@ -93,8 +94,9 @@ a:hover{
     width: 1300px;
     height: 1px;
     background: #414141;
-    bottom: 30px;
+    bottom: 240px;
     right: 10px;
+    margin: 0px 20px 30px 10px;
 }
 .footerbar{
     display:block;
@@ -196,8 +198,8 @@ a:hover{
     font-size: 20px;
 }
 .slidershow{
-    margin:0px;
-    width: 1300px;
+    padding: 0px;
+    width: 1280px;
     height: 600px;
     overflow: hidden;
     border: solid 8px black;
