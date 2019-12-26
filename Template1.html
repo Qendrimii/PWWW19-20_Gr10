@@ -50,6 +50,70 @@
         text-shadow: 3px 3px 3px lightgreen;
     }
  th{text-shadow: 4px 4px 5px dimgrey;}
+ .img1:hover {
+
+animation: img1F 6s infinite linear;
+}
+.img2:hover{
+    animation: img2F 6s infinite linear;
+}
+.img3:hover{
+    animation: img3F 6s infinite linear;
+}
+.img4:hover{
+    animation: img4F 6s infinite linear;
+}
+.img5:hover{
+    animation: img5F 6s infinite linear;
+}
+.img6:hover{
+    animation: img6F 6s infinite linear;
+}
+
+@keyframes img1F{
+    from { -webkit-transform: rotate(0deg); }
+25% { -webkit-transform: rotate(15deg); }
+50% { -webkit-transform: rotate(0); }
+75% { -webkit-transform: rotate(-15deg); }
+to { -webkit-transform: rotate(0); }
+}
+@keyframes img2F{
+    from { -webkit-transform: skew(0deg); }
+25% { -webkit-transform: skew(15deg); }
+50% { -webkit-transform: skew(0deg); }
+75% { -webkit-transform: skew(-15deg); }
+to { -webkit-transform: skew(0deg); }
+}
+@keyframes img3F{
+    from { -webkit-transform: rotateX(0deg); }
+25% { -webkit-transform: rotateX(30deg); }
+50% { -webkit-transform: rotateX(0deg); }
+75% { -webkit-transform: rotateX(-30deg); }
+to { -webkit-transform: rotateX(0deg); }
+}
+@keyframes img4F{
+    from { -webkit-transform: rotateY(0deg); }
+25% { -webkit-transform: rotateY(30deg); }
+50% { -webkit-transform: rotateY(0deg); }
+75% { -webkit-transform: rotateY(-30deg); }
+to { -webkit-transform: rotateY(0deg); }
+}
+@keyframes img5F{
+    from { -webkit-transform: scale(1.5,1.5); }
+25% { -webkit-transform: scale(1.5,1.5); }
+50% { -webkit-transform: scale(1.5,1.5); }
+75% { -webkit-transform: scale(1.5,1.5); }
+to { -webkit-transform: scale(1.5,1.5); }
+}
+@keyframes img6F{
+    from { -webkit-transform: rotateX(0deg); }
+25% { -webkit-transform: rotateX(30deg); }
+50% { -webkit-transform: rotateX(0deg); }
+75% { -webkit-transform: rotateX(-30deg); }
+to { -webkit-transform: rotateX(0deg); }
+}
+
+
     </style>
 <head>
     <title>Pro Photo Template</title>
@@ -91,19 +155,19 @@
      <table>
          <tr>
              <td> 
-                 <figure>
+                 <figure class="img1">
                         <img src="foto/first_photo.jpg" width="300" height="200" >
                         <figcaption>Fotografi i pare ne bote  </figcaption>
                 
                  </figure>
              </td>
-             <td><figure>
+             <td><figure class="img2">
                     <img src="foto/firstdigitalphoto.webp" width="300" height="200" >
                     <figcaption>Fotografi i pare digjital </figcaption>
             
              </figure>
              </td>
-             <td><figure>
+             <td><figure class="img3">
                     <img src="foto/sun_photograph.webp" width="300" height="200" >
                     <figcaption>Fotografi i pare diellor </figcaption>
             
@@ -112,21 +176,21 @@
          </tr>
          <tr>
              <td>
-                    <figure>
+                    <figure class="img4">
                             <img src="foto/air_photo.webp" width="300" height="200" >
                             <figcaption>Fotografi i pare ajror </figcaption>
                     
                      </figure>
              </td>
              <td>
-                    <figure>
+                    <figure class="img5">
                             <img src="foto/space_photograph.webp" width="300" height="200" >
                             <figcaption>Fotografi i pare ne hapsire </figcaption>
                     
                      </figure>
              </td>
              <td>
-                    <figure>
+                    <figure class="img6">
                             <img src="foto/color_photograph" width="300" height="200" >
                             <figcaption>Fotografi i pare me ngjyre </figcaption>
                     
