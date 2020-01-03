@@ -1,0 +1,256 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 6, 2019, 9:22:21 AM
+
+*/
+*{
+    margin: 10px 10px 0px 10px;
+    position: static;
+    padding: 0px;
+
+}
+
+html{
+    display: flex;
+    background: #252525;
+    color: white;
+    overflow-x: hidden;
+}
+.firstH{
+    margin: 0px;
+}
+.secondH{
+    position: relative;
+    top: -60px;
+    left: 1050px;
+}
+.round{
+    width: 190px;
+    height: 20px;
+    border-radius: 20px;
+    left: 1100px;
+    background:#414141;
+    color: white;
+}
+.bar{
+    position: relative;
+    width: 1300px;
+    height: 35px;
+    background: #414141;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+.barLink a{
+    color: white;
+    text-decoration:none;
+    margin: 0px 30px;
+    position: relative;
+    top: -35px;
+
+}
+a:hover{
+    color: chocolate;
+}
+
+.foto{
+    width: 1300px;
+    height: 620px;
+    margin: 0px;
+    position: relative;
+    left: -10px;
+    bottom: 10px;
+
+
+}
+.vija{
+    position: relative;
+    width: 1300px;
+    height: 1px;
+    background: #414141;
+    margin: 0px 10px;
+    top: -50px;
+
+}
+.vija2{
+    width: 1300px;
+    height: 1px;
+    background: #414141;
+    top: -50px;
+    margin: 20px 10px;
+}
+.vija3{
+    width: 1300px;
+    height: 1px;
+    background: #414141;
+    top: 100px;
+    margin: 70px 10px;
+
+}
+.vija4{
+    position: relative;
+    width: 1300px;
+    height: 1px;
+    background: #414141;
+    bottom: 240px;
+    right: 10px;
+    margin: 0px 20px 30px 10px;
+}
+.footerbar{
+    display:block;
+    position: static;
+    width: 1300px;
+    height: 110px;
+    background: #414141;
+    top: 100px;
+    margin: 70px 10px;
+    border-radius: 10px;
+
+}
+.linqet a{
+    position: relative;
+    display: inline-block;
+    background: white;
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+    left: 550px;
+    border-radius: 50%;
+}
+.linqet a:focus{
+    background: #252525 ;
+    border-style: solid;
+    border-color: white;
+
+
+}
+.underPic{
+    width: 1300px;
+    height: 600px;
+    margin: 60px 10px 0px 10px ;
+
+}
+.rrumullaku{
+    display:inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #414141;
+    border: solid 20px #515151;
+}
+
+
+
+.text1{
+    font-size: 50px;
+    margin: 0px 50px 0px 220px;
+    
+}
+.text2{
+    font-size: 50px;
+    margin: 0px 50px 0px 250px;
+    
+}
+
+.contactUS{
+    position: relative;
+    width: 440px;
+    height: 70px;
+    margin: 15px 820px;
+    bottom: 94px;
+    background: #ff9900
+
+}
+.rad{
+    border-radius: 10px;
+}
+.letter{
+    text-decoration: none;
+    color: white;
+    font-size: 39px;
+    height: 80px;
+    width:420px ;
+    position: relative;
+    top: 15px;
+    margin: 0px;
+    padding: 0px;
+    left: -20px;
+}
+.lbl1{
+    font-size: 41px;
+    position: relative;
+    top: 15px;
+}
+.lbl2{
+    display: grid;
+    font-size: 20px;
+}
+.slidershow{
+    padding: 0px;
+    width: 1280px;
+    height: 600px;
+    overflow: hidden;
+    border: solid 8px black;
+}
+ .animacioniLoad {
+     height: 48px;
+     width: 48px;
+     color: #5a5a5a;
+     display: inline-block;
+     position: relative;
+     left: 600px;
+     border: 2px solid;
+     animation: rotate-dot-panel 4s 0.5s cubic-bezier(0.25, 0.46, 0.61, 0.4) infinite; }
+.animacioniLoad::before, .animacioniLoad::after {
+    content: '';
+    position: absolute;
+    color: inherit; }
+.animacioniLoad::before {
+    height: 40%;
+    width: 40%;
+    border: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto; }
+.animacioniLoad::after {
+    height: 0;
+    width: 0;
+    border: 5px solid;
+    border-radius: 50%;
+    bottom: 0px;
+    left: 0;
+    margin: 1px;
+    animation: move-dot 4s ease infinite; }
+
+@keyframes rotate-dot-panel {
+    0% {
+        transform: rotate(0); }
+    25% {
+        transform: rotate(90deg); }
+    50% {
+        transform: rotate(180deg); }
+    75% {
+        transform: rotate(270deg); }
+    100% {
+        transform: rotate(360deg); } }
+
+@keyframes move-dot {
+    0%, 100% {
+        left: 0;
+        top: 0; }
+    25% {
+        left: 0;
+        top: 75%; }
+    50% {
+        left: 75%;
+        top: 75%; }
+    75% {
+        left: 75%;
+        top: 0%; } }
+
+
