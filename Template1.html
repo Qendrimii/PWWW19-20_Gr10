@@ -4,7 +4,8 @@
 <html>
 <title>Seminari</title>
 <meta charset="UTF-8">
-<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="js/Array.js"></script>
 <style>
     footer{
         position: relative;
@@ -63,9 +64,7 @@ animation: img1F 6s infinite linear;
 .img4:hover{
     animation: img4F 6s infinite linear;
 }
-.img5:hover{
-    animation: img5F 6s infinite linear;
-}
+
 .img6:hover{
     animation: img6F 6s infinite linear;
 }
@@ -98,13 +97,7 @@ to { -webkit-transform: rotateX(0deg); }
 75% { -webkit-transform: rotateY(-30deg); }
 to { -webkit-transform: rotateY(0deg); }
 }
-@keyframes img5F{
-    from { -webkit-transform: scale(1.5,1.5); }
-25% { -webkit-transform: scale(1.5,1.5); }
-50% { -webkit-transform: scale(1.5,1.5); }
-75% { -webkit-transform: scale(1.5,1.5); }
-to { -webkit-transform: scale(1.5,1.5); }
-}
+
 @keyframes img6F{
     from { -webkit-transform: rotateX(0deg); }
 25% { -webkit-transform: rotateX(30deg); }
@@ -161,13 +154,13 @@ to { -webkit-transform: rotateX(0deg); }
                  </figure>
              </td>
              <td><figure class="img2">
-                    <img src="foto/firstdigitalphoto.webp" width="300" height="200" >
+                    <img src="foto/FPD.webp" width="300" height="200" >
                     <figcaption>Fotografi i pare digjital </figcaption>
             
              </figure>
              </td>
              <td><figure class="img3">
-                    <img src="foto/sun_photograph.webp" width="300" height="200" >
+                    <img src="foto/FPDI.webp" width="300" height="200" >
                     <figcaption>Fotografi i pare diellor </figcaption>
             
              </figure></td>
@@ -176,17 +169,19 @@ to { -webkit-transform: rotateX(0deg); }
          <tr>
              <td>
                     <figure class="img4">
-                            <img src="foto/air_photo.webp" width="300" height="200" >
+                            <img src="foto/FPA.webp" width="300" height="200" >
                             <figcaption>Fotografi i pare ajror </figcaption>
                     
                      </figure>
              </td>
              <td>
-                    <figure class="img5">
-                            <img src="foto/space_photograph.webp" width="300" height="200" >
-                            <figcaption>Fotografi i pare ne hapsire </figcaption>
+                    <figure>
+                            <img id="img5"  src="foto/FPH.webp" width="300" height="200" >
+                            <figcaption>Fotografi i pare ne hapesire</figcaption>
+                            
+                    </figure>
                     
-                     </figure>
+                     
              </td>
              <td>
                     <figure class="img6">
