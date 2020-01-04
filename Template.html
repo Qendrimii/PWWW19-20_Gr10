@@ -7,7 +7,12 @@
 <meta charset="UTF-8">
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/style1.css" rel="stylesheet" type="text/css" />
+<style>
+   p.p1{
+      text-align: center;
+   }
 
+</style>
 
 </head>
 <body>
@@ -129,7 +134,29 @@
            </fieldset>
    </form>
     </div>
- 
+    <div>
+       <p class="p1">  Numri i sekondav qe shpenzoni duke e shikuar kete faqe:
+         <span id = "soFar">0</span>
+      </p>
+    </div>
+ <script>
+    var seconds = 0;
+
+// thirret pasi faqja te loadohet per te filluar kohematjen
+function startTimer() 
+{
+   window.setInterval( "updateTime()", 1000 );
+} 
+
+// thirret qdo 1000 ms per te perditesuar kohematesin
+function updateTime()
+{
+   ++seconds;                
+   document.getElementById( "soFar" ).innerHTML = seconds;
+} 
+
+window.addEventListener( "load", startTimer, false );
+ </script>
         <footer>
       
          <div>
