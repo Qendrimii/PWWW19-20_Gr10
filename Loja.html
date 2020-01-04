@@ -3,6 +3,7 @@
 <head>
     <title> Loja floppy_block</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -18,7 +19,7 @@
     }
     #paneli_i_lojes{
         width: 800px;
-        height: 500px;
+        height: 300px;
         background: white;
     }
     img{
@@ -61,15 +62,22 @@
 <script type="text/javascript">
     //init object globally
     var objImage= null;
+    var objImage1= null;
     function init(){
         objImage=document.getElementById("image1");
+        objImage1=document.getElementById("image2");
+
+        objImage1.style.position='relative';
+        objImage1.style.left='700px';
+        objImage1.style.top='50px';
+
         objImage.style.position='relative';
         objImage.style.left='0px';
         objImage.style.top='0px';
 
     }
     function getKeyAndMove(e){
-        if (objImage.x<780&&objImage.x>30){
+        if (objImage.x<=objImage1.x){
         var key_code=e.which||e.keyCode;
             switch (key_code) {
                 case 37: //left arrow key
@@ -86,7 +94,8 @@
                     break;
             }
 
-        }
+        }else {window.alert('Arritet tek caku')}
+        console.log("Warning: Bone refresh per nje loje te re.");
     }
     function moveLeft(){
         objImage.style.left=parseInt(objImage.style.left)-5 +'px';
@@ -105,6 +114,7 @@
 <body onkeydown='getKeyAndMove(event)'>
 <div id="paneli_i_lojes">
     <img id="image1" width="50px"  height="50px" src="./foto/flappyBird.png" alt="Foto nuk u gjend"/>
+    <img id="image2" width="50px"  height="50px" src="./foto/ushqimi.jpg" alt="Foto nuk u gjend"/>
 </div>
 
 

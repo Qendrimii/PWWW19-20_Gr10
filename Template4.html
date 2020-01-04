@@ -9,7 +9,22 @@
 .vija4{
     top: 0px;
 }
+
 </style>
+<script>
+    var start=new Date().getSeconds();
+
+    window.onload = function() {
+        setInterval(changeColor, start*10);
+
+    }
+
+    function changeColor() {
+        var body = document.getElementsByTagName('html')[0];
+        body.style.backgroundColor = body.style.backgroundColor == 'black' ? 'red' : 'black';
+    }
+
+</script>
 <head>
     <title>Pro Photo Template</title>
 </head>
