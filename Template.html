@@ -7,6 +7,10 @@
 <meta charset="UTF-8">
 <link href="style.css" rel="stylesheet" type="text/css" />
 <style>
+    #password{
+        width: 150px;
+        height: 25px;
+    }
 footer{
     position: relative;
     top: 190px;
@@ -15,6 +19,13 @@ footer{
 div#leg{
     position: relative;
     right: 20px;
+}
+span{
+    position: relative;
+    font-style: revert;
+    left: 270px;
+    bottom: 50px;
+    font-size: 50px;
 }
 .vija4{
     bottom: 0px;
@@ -145,10 +156,9 @@ table {
    width: 90%;
    margin: 0 auto;
 }
-table tbody td{
-   vertical-align: top;
+table tbody td {
+    vertical-align: top;
 }
-
 
 </style>
 
@@ -178,13 +188,12 @@ table tbody td{
     <a href="Template3.html">GALLERY</a>
     <a href="Template4.html">PORTFOLIO</a>
     <a href="Template5.html">LINK TEST</a>
-    <a href="Template6.html">LONG LINK TEXT</a>
-</div>
+    <a href="Loja.html">LONG LINK TEXT</a></div>
         </div>
         <div class="head1">
 <h2>Shperblehu per foton e bere !!</h2>
 </div>
-
+<span> Nga tani fotoja juaj ka vlere!!!!</span>
     <div class="forma">
         <form  action="" autocomplete="on" >
             <fieldset>
@@ -204,7 +213,7 @@ table tbody td{
                           </p>            
                        </td>
                     </tr>
-                    <tr>
+                    <tr id="rregullimiIQelulave">
                         <td>
                             <div class="kutia">
                                <label>Kategoria</label><br/>
@@ -247,15 +256,19 @@ table tbody td{
                              <option>Njerez</option>
                           </select>
                           </p>
-                         
-                          <p>	
-                          <label>Viti</label><br/>               
+
+                          <p>
+                          <label>Viti</label><br/>
                           <input type="text" name="year" id="year" class="theksuar"/>
-                          </p>  
-                          <p>	
-                          <label>Foto</label><br/>               
+                          </p>
+                          <p>
+                          <label>Foto</label><br/>
                           <input type ="file" id="foto" class="theksuar"/>
-                          </p>                             
+                          </p>
+                           <p>
+                           <label>ID-ja e Fotos</label><br/>
+                           <input type="password" name="password" id="password" class="theksuar"/>
+                           </p>
                        </td>
                      
                     </tr>
@@ -264,7 +277,7 @@ table tbody td{
                        <td colspan="2">
                           <div class="drejtkendeshi qendersuar"> 
                              <input type="submit" class="butoni"> <input type="reset" value="Clear Form" class="butoni">      
-                          </div
+                          </div>
                        </td>
                     </tr>
                  </table>
@@ -281,7 +294,7 @@ table tbody td{
 
              </div>
              <label>
-            Copyright &copy; 2013 - All rights reserved - Domain name
+                 &bigstar;Copyright &copy; 2013 &ac; All rights reserved &ast;Domain name &bigstar;
             </label>
         </div>
 

@@ -99,7 +99,7 @@ a:hover{
     right: 10px;
     margin: 0px 20px 30px 10px;
 }
-.footerbar{
+#footerbar{
     display:block;
     position: static;
     width: 1300px;
@@ -167,7 +167,7 @@ a:hover{
 .rad{
     border-radius: 10px;
 }
-.letter{
+#letter{
     text-decoration: none;
     color: white;
     font-size: 39px;
@@ -252,5 +252,24 @@ a:hover{
     75% {
         left: 75%;
         top: 0%; } }
+
+#t3Title{
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+}
+#t3Title:hover{
+    transition-duration: 2s;
+    color: chocolate;
+    text-transform: uppercase;
+    text-shadow: 2px 2px lightsalmon;
+
+}
+#t3abbr{
+    font-style: oblique;
+    font-family: "Californian FB";
+}
+
 
 
