@@ -25,6 +25,7 @@
     img{
         position: absolute;
     }
+    #drawLines {margin-top: 50px;}
 
 </style>
 <head>
@@ -116,6 +117,143 @@
     <img id="image1" width="50px"  height="50px" src="./foto/flappyBird.png" alt="Foto nuk u gjend"/>
     <img id="image2" width="50px"  height="50px" src="./foto/ushqimi.jpg" alt="Foto nuk u gjend"/>
 </div>
+<canvas id = "drawRectangle" width = "300" height = "100" 
+style = "border: 1px solid white;">
+    Your browser does not support canvas.
+ </canvas>
+ <script>
+    var canvas = document.getElementById("drawRectangle");
+    var context = canvas.getContext("2d")
+    context.fillStyle = "yellow";
+    context.fillRect(5, 10, 200, 75);
+    context.strokeStyle = "royalblue";
+    context.lineWidth = 6;
+    context.strokeRect(4, 9, 201, 76);
+ </script>
+    <canvas id = "drawLines" width = "400" height = "200" 
+    style = "border: 1px solid white;">
+ </canvas>
+ <script>
+    var canvas = document.getElementById("drawLines");
+    var context = canvas.getContext("2d")
+   
+    // red lines without a closed path 
+    context.beginPath(); // begin a new path
+    context.moveTo(10, 10); // path origin
+    context.lineTo(390, 10); 
+    context.lineTo(390, 30); 
+    context.lineTo(10, 30); 
+    context.lineWidth = 10; // line width
+    context.lineJoin = "bevel" // line join style
+    context.lineCap = "butt"; // line cap style
+    context.strokeStyle = "red" // line color
+    context.stroke(); //draw path
+
+    // orange lines without a closed path 
+    context.beginPath(); // begin a new path
+    context.moveTo(40, 75); // path origin
+    context.lineTo(40, 55); 
+    context.lineTo(360, 55); 
+    context.lineTo(360, 75); 
+    context.lineWidth = 20; // line width
+    context.lineJoin = "round" // line join style
+    context.lineCap = "round"; // line cap style
+    context.strokeStyle = "orange" // line color
+    context.stroke(); // draw path
+
+    // green lines with a closed path 
+    context.beginPath(); // begin a new path
+    context.moveTo(10, 100); // path origin
+    context.lineTo(390, 100); 
+    context.lineTo(390, 130);
+    context.closePath() // close path
+    context.lineWidth = 10; // line width
+    context.lineJoin = "miter" // line join style
+    context.strokeStyle = "green" // line color
+    context.stroke(); // draw path
+
+    // blue lines without a closed path 
+    context.beginPath(); // begin a new path
+    context.moveTo(40, 140); // path origin
+    context.lineTo(360, 190); 
+    context.lineTo(360, 140);
+    context.lineTo(40, 190);
+    context.lineWidth = 5; // line width
+    context.lineCap = "square"; // line cap style
+    context.strokeStyle = "blue" // line color
+    context.stroke(); // draw path
+ </script>
+   <canvas id = "shadow" width = "525" height = "250" 
+   style = "border: 1px solid black;">
+</canvas>
+<script>
+
+   // shadow effect with positive offsets
+   var canvas = document.getElementById("shadow");
+   var context = canvas.getContext("2d")
+   context.shadowBlur = 10;
+   context.shadowOffsetX = 15;
+   context.shadowOffsetY = 15;
+   context.shadowColor = "blue";
+   context.fillStyle = "cyan";
+   context.fillRect(25, 25, 200, 200);
+
+   // shadow effect with negative offsets
+   context.shadowBlur = 20;
+   context.shadowOffsetX = -20;
+   context.shadowOffsetY = -20;
+   context.shadowColor = "gray";
+   context.fillStyle = "magenta";
+   context.fillRect(300, 25, 200, 200);
+</script>
+  <canvas id = "radialGradient" width = "200" height = "200" 
+  style = "border: 1px solid black;">
+</canvas>
+<script>
+  var canvas = document.getElementById("radialGradient");
+  var context = canvas.getContext("2d")
+  var gradient = context.createRadialGradient(
+     100, 100, 10, 100, 100, 125);
+  gradient.addColorStop(0, "white");
+  gradient.addColorStop(0.5, "yellow");
+  gradient.addColorStop(0.75, "orange");
+  gradient.addColorStop(1, "red");
+  context.fillStyle = gradient;
+  context.fillRect(0, 0, 200, 200);
+</script>
+
+<!-- radial gradient with nonconcentric circles -->
+<canvas id = "radialGradient2" width = "200" height = "200" 
+  style = "border: 1px solid black;">
+</canvas>
+<script>
+  var canvas = document.getElementById("radialGradient2");
+  var context = canvas.getContext("2d")
+  var gradient = context.createRadialGradient(
+     20, 150, 10, 100, 100, 125);
+  gradient.addColorStop(0, "red");
+  gradient.addColorStop(0.5, "orange");
+  gradient.addColorStop(0.75, "yellow");
+  gradient.addColorStop(1, "white");
+  context.fillStyle = gradient;
+  context.fillRect(0, 0, 200, 200);
+</script>
+ <canvas id = "myimage" width = "200" height = "200" 
+ style = "border: 1px solid Black;">
+</canvas>
+<script>
+    var image = new Image();
+    image.src = "foto/yellowflowers.png";
+
+    function draw() 
+    {
+       var canvas = document.getElementById("myimage");
+       var context = canvas.getContext("2d")
+       context.drawImage(image, 0, 0, 175, 175); 
+    } // end function draw
+    
+    window.addEventListener( "load", draw, false );
+ </script>
 
 
 </body>
