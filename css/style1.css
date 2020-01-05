@@ -1,3 +1,15 @@
+#password{
+    width: 150px;
+    height: 25px;
+}
+
+p.p1{
+  text-align: center;
+}
+
+
+
+
 footer{
     position: relative;
     top: 190px;
@@ -59,14 +71,9 @@ form p {
     45deg, white 15%, lightsteelblue 50%, navy 75% );
   padding: 5px 20px 5px 20px;
   text-decoration: none;}
-  .butoni:hover{  background: -webkit-gradient(
-                linear, right top, left bottom,
-                color-stop(15%, white), color-stop(50%, lightsteelblue),
-                color-stop(75%, navy) );
-    background: -moz-linear-gradient(
-    top right, white 15%, lightsteelblue 50%, navy 75% );
-    background: linear-gradient(
-    225deg, white 15%, lightsteelblue 50%, navy 75% );}
+  .butoni:hover{  background: -webkit-radial-gradient(center, white, blue);
+    background: -moz-radial-gradient(center,  white, blue);
+    background: radial-gradient(center, white, blue;}
 .kutia {
    border: 1pt solid #9E9E9E;
    padding: 0.5em;

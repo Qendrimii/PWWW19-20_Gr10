@@ -10,3 +10,5 @@ li:nth-child(even) { background-color: lightyellow;
    border-bottom: 1px solid grey; }
 li:nth-child(odd) { background-color: lightblue; 
    border-bottom: 1px solid grey; }
+   #helpText { font-family: sans-serif; color: blue; margin-top: 10px; }
+     p { margin: 0; }
