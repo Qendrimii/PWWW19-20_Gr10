@@ -3,6 +3,11 @@
     <option name="myName" value="Project Default" />
     <inspection_tool class="MisspelledHeader" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <option name="CUSTOM_HEADERS">
+        <header value="#version 1.1" />
+        <header value="CASHE MAINFEST" />
+        <header value="ContactUS.html" />
+        <header value="Loja.html" />
+        <header value="Seminari.html" />
         <header value="Template6.html" />
       </option>
     </inspection_tool>
