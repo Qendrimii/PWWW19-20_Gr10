@@ -6,25 +6,16 @@
 <meta charset="UTF-8">
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <style>
-.vija4{
-    top: 0px;
-}
+    .vija4{
+        top: 0px;
+    }
 
+    .HeaderMid {
+        position: relative;
+        text-align: center;
+    }
 </style>
-<script>
-    var start=new Date().getSeconds();
 
-    window.onload = function() {
-        setInterval(changeColor, start*10);
-
-    }
-
-    function changeColor() {
-        var body = document.getElementsByTagName('html')[0];
-        body.style.backgroundColor = body.style.backgroundColor == 'black' ? 'red' : 'black';
-    }
-
-</script>
 <head>
     <title>Pro Photo Template</title>
 </head>
@@ -55,6 +46,39 @@
     <a href="Loja.html">LONG LINK TEXT</a>
 </div>
 </div>
+
+<h1 class="HeaderMid"> Vendos për shitje fotografine</h1>
+
+<html>
+<head>
+    <title>Ploteso te dhenat</title>
+</head>
+<body>
+
+<form method="post" action="./php/process.php">
+    First name:<br>
+    <input type="text" name="first_name">
+    <br>
+    Last name:<br>
+    <input type="text" name="last_name">
+    <br>
+    Email Id:<br>
+    <input type="email" name="email">
+    <br>
+    City name:<br>
+    <input type="text" name="city_name">
+    <br>
+    Phone :<br>
+    <input type="text" name="phone">
+    <br>
+    Foto :<br>
+    <input type ="file" name="image"/>
+    <br>
+    <br>
+    <input type="submit" name="save" value="submit">
+</form>
+
+
 </body>
 <footer>
 
