@@ -9,15 +9,19 @@
 
 
 if(isset($_POST['save']))
-{
+{ 
 
-    $foto = $_POST["foto"];
+    $foto = $_POST["../foto/foto"];
     $fotoID = $_POST["fotoID"];
     $emri = $_POST["emri"];
     $mbiemri = $_POST["mbiemri"];
     $email = $_POST["email"];
+    if(!preg_match("/^[a-zA-Z ]*$/",$emri) || !preg_match("/^[a-zA-Z ]*$/",$mbiemri) ||
+    !preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$^", $email))
+    {echo "Te dhenat nuk jane ne formatin e duhur";}
   /*  $tema = $_POST["tema"];*/
   /*  $vendi = $_POST["vendi"];*/
+  else{
     $query = "INSERT INTO shfytezuesi(Emri,Mbiemri,idFoto,Email,Foto) values
      ('$emri','$mbiemri','$fotoID','$email','../foto/$foto')";
      $query_run = mysqli_query($conn,$query);
@@ -26,7 +30,7 @@ if(isset($_POST['save']))
      else{
          echo "Te dhenat nuk jane shtuar";
      }
-
+    }
 
 
  
