@@ -1,6 +1,3 @@
-
-<!DOCTYPE html>
-
 <html>
 <head>
 <title>Seminari</title>
@@ -41,7 +38,7 @@
 </div>
 <span> Nga tani fotoja juaj ka vlere!!!!</span>
     <div class="forma">
-        <form  action="" autocomplete="on" >
+        <form  action="php/form.php" autocomplete="on"method ="POST"  enctype="multipart/form-data">
             <fieldset>
                   <legend>Dergoni foton tuaj per te fituar shperblimin e javes</legend>
                   
@@ -52,28 +49,32 @@
                           <p>
                           <label>Titulli</label><br/>
                           <input type="text" name="titulli" id="titulli" class="theksuar" />
+                         
                           </p>
                        </td>
                      
                          <td>
                             <p>
                                <label>Emri</label><br/>
-                               <input type="text" name="name">
+                               <input type="text" name="emri" id="emri">
+                              
                             </p>
                          </td>
                      </tr>
                      <tr>
                         <td>
                            <p>
-                              <label>Pershkrimi</label><br/>
-                              <input type="text" name="pershkrimi" id="pershkrimi" class="theksuar">
+                              <label for="w3review">Pershkrimi</label><br/>
+                              <textarea id="w3review" name="w3review" rows="4" cols="40">Pershkrimi...</textarea>
+                             
                           </p> 
 
                         </td>
                         <td>
                            <p>
                               <label>Mbiemri</label><br/>
-                              <input type="text" name="mbiemri" class="theksuar">
+                              <input type="text" name="mbiemri" id="mbiemri" class="theksuar">
+                            
                            </p> 
                         </td>
                               
@@ -84,25 +85,21 @@
                         <td>
                             <div class="kutia">
                                <label>Kategoria</label><br/>
-                               <input type="radio" name="type" value="1" checked>Portrait Photography<br/>
+                              
+                               <input type="radio" name="type" value="1" >Portrait Photography<br/>
                                <input type="radio" name="type" value="2">Sport Photography<br/>
                                <input type="radio" name="type" value="3">Landscape Photography<br/>
                                <input type="radio" name="type" value="4">Wedding Photography<br/>
                                <input type="radio" name="type" value="5">Aerial Photography<br/>
                                <input type="radio" name="type" value="6">WildLife Photography
                             </div>
-                            <div class="kutia">
-                               <label>Image Creative Commons Specification </label><br/>
-                               <input type="checkbox" name="cc" >Attribution <br/>
-                               <input type="checkbox" name="cc" >Noncommercial <br/>    
-                               <input type="checkbox" name="cc" >No Derivative Works <br/>  
-                               <input type="checkbox" name="cc" >Share Alike
-                            </div>               
+                                     
                          </td>
                        <td> 
                           <p> 
                           <label>Vendi</label><br/>
                           <select name="vendi" class="">
+                             <option value="-1">Vendi</option> 
                              <option>Peje</option> 
                              <option>Prishtine</option>
                              <option>Prizren</option>
@@ -112,29 +109,33 @@
                              <option>Ferizaj</option>
 
                           </select>
+                       
                           </p>
 
                           <p> 
                           <label>Tema</label><br/>
                           <select name="tema" class="theksuar">
-                             <option>Zgjedhni temen</option> 
+                             <option value="-1">Zgjedhni temen</option> 
                              <option>Kafshe</option>
                              <option>Peisazh</option>
                              <option>Njerez</option>
                           </select>
+                        
                           </p>
 
                           <p>
                           <label>E-mail</label><br/>
                           <input type="email" name="email" class="theksuar"/>
+                       
                           </p>
                           <p>
                           <label>Foto</label><br/>
-                          <input type ="file" id="foto" class="theksuar"/>
+                          <input type ="file" name="foto"  class="theksuar"/>
                           </p>
                            <p>
                            <label>ID-ja e Fotos</label><br/>
-                           <input type="password" name="password" id="password" class="theksuar"/>
+                           <input type="password" name="fotoID"  class="theksuar"/>
+                          
                            </p>
                        </td>
                      
@@ -143,7 +144,7 @@
                     <tr>
                        <td colspan="2">
                           <div class="drejtkendeshi qendersuar"> 
-                             <input type="submit" class="butoni"> <input type="reset" value="Clear Form" class="butoni">      
+                             <input type="submit" value = "submit" class="butoni">      
                           </div>
                        </td>
                     </tr>
