@@ -10,7 +10,7 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $image = $_POST['image'];
 $sql = "INSERT INTO clients (first_name,last_name,email,city_name,phone,image)
-VALUES ('$first_name','$last_name','$email','$city_name','$phone','$image')";
+VALUES ('$first_name','$last_name','$email','$city_name','$phone','../foto/$image')";
 if (mysqli_query($conn, $sql)) {
 echo 'Te dhenat u shtuan me sukses';
 } else {
