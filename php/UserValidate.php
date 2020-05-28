@@ -1,8 +1,13 @@
 <?php
 class User
 {
+    public $color;
+  
+    function __construct($color) {
+   
+      $this->color = $color;
 
-
+    }
 function validEmail($str)
 { $isValid = true;
     $atIndex = strrpos($str, "@");
@@ -68,8 +73,8 @@ function validEmail($str)
     return $isValid;
 
 }
-
-
+function merreNgjyren(){
+return $this->color;}
 
 }
 

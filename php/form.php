@@ -13,7 +13,7 @@ $myFotoId = "55555";
 
 
 if(isset($_POST['save']))
-{   $user = new User();
+{   $user = new User('red');
 
     $foto = $_POST["foto"];
     $fotoID = $_POST["fotoID"];
@@ -21,26 +21,20 @@ if(isset($_POST['save']))
     $mbiemri = $_POST["mbiemri"];
     $email =$_POST["email"];
     if(!preg_match("/^[a-zA-Z ]*$/",$emri) || !preg_match("/^[a-zA-Z ]*$/",$mbiemri)|| !$user->validEmail($email))
-    {echo "Te dhenat nuk jane ne formatin e duhur";}
+    {throw new Exception("Te dhenat nuk jane ne formatin e duhur");}
    
     
   /*  $tema = $_POST["tema"];*/
   /*  $vendi = $_POST["vendi"];*/
-  else{
-    if($myemail == $email && $myFotoId == $fotoID){
-      if(isset($_POST['remember']))
-     { setcookie('email',$email,time()+60*60);
-      session_start();
-      $_SESSION['email'] = $email;
-     }
-   
-    }
-       
+ else{
+
+      include 'Session.php';
     $query = "INSERT INTO shfytezuesi(Emri,Mbiemri,idFoto,Email,Foto) values
      ('$emri','$mbiemri','$fotoID','$email','../foto/$foto')";
      $query_run = mysqli_query($conn,$query);
      if($query_run)
-     {echo "Te dhenat jane shtuar me sukses";}
+     {echo "Te dhenat jane shtuar me sukses ".$_SESSION['page_count']." here";
+      echo "<body style='background-color:red'>";}
      else{
          echo "Te dhenat nuk jane shtuar";
      }
