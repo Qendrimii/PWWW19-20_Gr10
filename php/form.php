@@ -14,6 +14,7 @@ $myFotoId = "55555";
 
 if(isset($_POST['save']))
 {   $user = new User('red');
+    $color = $user->merreNgjyren();
 
     $foto = $_POST["foto"];
     $fotoID = $_POST["fotoID"];
@@ -34,7 +35,15 @@ if(isset($_POST['save']))
      $query_run = mysqli_query($conn,$query);
      if($query_run)
      {echo "Te dhenat jane shtuar me sukses ".$_SESSION['page_count']." here";
-      echo "<body style='background-color:red'>";}
+      if($_SESSION['page_count']%2==1)
+      echo "<body style='background-color:$color'>";
+    else{
+      $ngj_tjt = $user->vendoseNgjyren('blue');
+      $another_color = $user->merreNgjyren($ngj_tjt);
+
+      echo "<body style='background-color:$another_color'>";
+    }}
+
      else{
          echo "Te dhenat nuk jane shtuar";
      }

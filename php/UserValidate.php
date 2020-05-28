@@ -72,6 +72,12 @@ function validEmail($str)
     }
     return $isValid;
 
+
+}
+function vendoseNgjyren($ngjyra){
+
+ $this->color = $ngjyra;
+
 }
 function merreNgjyren(){
 return $this->color;}
