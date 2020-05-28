@@ -1,0 +1,1 @@
+Teksti do te perdoret per ndryshim.
